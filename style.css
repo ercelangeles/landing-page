@@ -13,7 +13,8 @@ header,
 .hero-section,
 footer {
         background-color: #1F2937;
-        padding: 0px 200px;
+        padding-left: 200px;
+        padding-right: 200px;
 }
 
 button {
@@ -66,8 +67,8 @@ a {
 .hero-section {
         display: flex;
         justify-content: center;
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 8em;
+        padding-bottom: 8em;
 }
 
 .hero-section .container {
@@ -147,9 +148,30 @@ a {
         border-color: #3882F6;
         
 }
+/*  */
 
 
+/* Quote section */
+.quote-section {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #E5E7EB;
+        padding: 8em 24em;
+        gap: 8px;
+}
 
+.quote {
+        display: flex;
+        font-size: 36px;
+        font-style: oblique; 
+        color: #1F2937;
+}
+
+.quotee {
+        display: flex;
+        flex-direction: row-reverse;
+}
 
 /*  */
 
