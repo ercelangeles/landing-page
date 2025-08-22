@@ -23,7 +23,7 @@ button {
         background: #3882F6;
         border: none;
         border-radius: 8px;
-        padding: 8px 24px;
+        padding: 4px 24px;
         margin: 0;
         width: fit-content;
         height: fit-content;
@@ -163,6 +163,7 @@ a {
 
 .quote {
         display: flex;
+        justify-content: center;
         font-size: 36px;
         font-style: oblique; 
         color: #1F2937;
@@ -172,7 +173,26 @@ a {
         display: flex;
         flex-direction: row-reverse;
 }
+/*  */
 
+/* Call to action section */
+.call-to-action-section {
+        display: flex;
+        margin: 2em 16em;
+        padding: 2em 4em;
+        background-color: #3882F6;
+        border-radius: 10px;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.call-to-action-section button {
+        border: 2px solid white;
+}
+
+.call-to-action-secondary-text {
+        color: #E5E7EB;
+}
 /*  */
 
 
